@@ -1,0 +1,20 @@
+#!/usr/bin/php -q
+
+<?php
+
+/* 
+* CREATIVE TOOLBOX EXECUTE
+* VERSION 0.0.1
+* RELEASE 23-06-2022
+* BY FORDEVELOPERTOOLS
+* Site https://github.com/fordevelopertools
+*/
+
+# $argv for values from command
+
+use CT\Ctx\Bootstrap;
+
+include_once __DIR__ . '/system/CTX/Bootstrap.php';
+
+$loadCtxBootstrap = new Bootstrap($argv);
+$loadCtxBootstrap->system();
